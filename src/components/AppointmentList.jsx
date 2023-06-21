@@ -40,7 +40,7 @@
                  <h6>{new Date(day).toLocaleDateString()}</h6>
                  <h6>{new Date(day).toLocaleTimeString()}</h6>
                </Col>
-               <Col className="">
+               <Col className="text-end">
                  <FaTimesCircle
                    className="text-danger fs-3"
                    type="button"
