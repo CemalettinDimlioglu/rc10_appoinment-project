@@ -17,7 +17,7 @@
      setAppointments([
        ...appointments,
        {
-         id: appointments.length + 1,
+         id: new Date().getTime(),
          patient: patientName,
          day: date,
          consulted: false,
